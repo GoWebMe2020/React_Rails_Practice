@@ -1,0 +1,40 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.1); /* Transparent black background */
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  position: fixed; /* Keeps the navbar fixed at the top */
+  top: 0; /* Aligns the navbar at the top of the page */
+  left: 0; /* Aligns the navbar to the left edge of the page */
+  width: 100%; /* Ensures the navbar spans the full width of the screen */
+  z-index: 1000; /* Ensures the navbar stays above other content */
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link, .sign-out-btn {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover, .sign-out-btn:hover {
+  color: #f0f0f0;
+}
+
+.sign-out-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}

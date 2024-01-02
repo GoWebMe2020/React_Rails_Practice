@@ -1,0 +1,12 @@
+.landing-container {
+  background-image: url('https://images.unsplash.com/photo-1523808579830-cc773591da54?q=80&w=2914&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Add your background image URL here */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  background-position: center;
+}

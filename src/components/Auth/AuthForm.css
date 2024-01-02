@@ -1,0 +1,39 @@
+.auth-form-container {
+  background-color: #282c34; /* Dark background for contrast */
+  color: white;
+  padding: 60px;
+  border-radius: 10px;
+  width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-form label {
+  margin-bottom: 5px;
+}
+
+.auth-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.auth-form button {
+  background-color: #61dafb; /* Light blue background for buttons */
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+  background-color: #21a1f1; /* Darker blue on hover */
+}

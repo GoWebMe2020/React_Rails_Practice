@@ -1,0 +1,29 @@
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease;
+}
+
+.description {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  animation: fadeIn 3s ease;
+}
+
+.animation-box {
+  animation: moveUpDown 4s ease-in-out infinite;
+}
+
+.animated-element {
+  font-size: 2rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes moveUpDown {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
